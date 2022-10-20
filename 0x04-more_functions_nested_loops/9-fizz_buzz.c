@@ -8,12 +8,12 @@ int main(void)
 {
 	int n;
 
-	print("1");
+	printf("1");
 	for (n = 2; n <= 100; n++)
 	{
-		print(" ");
+		printf(" ");
 		if (n % 3 == 0)
-			print("Fizz");
+			printf("Fizz");
 		if (n % 5 == 0)
 			printf("Buzz");
 		if (n % 3 != 0 && n % 5 != 0)
